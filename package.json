@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node src/main.js",
-    "test": "tap"
+    "test": "tap --no-check-coverage"
   },
   "keywords": [],
   "author": "",
