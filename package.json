@@ -1,0 +1,18 @@
+{
+  "name": "js-nodejs-fastify-todo-api-restful",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "tap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^16.3.1"
+  },
+  "dependencies": {
+    "fastify": "^4.9.2"
+  }
+}
