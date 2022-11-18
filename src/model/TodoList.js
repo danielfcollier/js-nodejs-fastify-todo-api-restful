@@ -41,8 +41,7 @@ class TodoList {
     const { task, status } = this.Read({ id });
     if (status === httpStatus.ok) {
       const updatedTask = { ...task, ...updates };
-      this.Delete(task);
-      tasks.push(updatedTask);
+      tasks = [...tasks.filter((element) => element.id !== id), updatedTask];
 
       return { status: httpStatus.ok, task: updatedTask };
     }
